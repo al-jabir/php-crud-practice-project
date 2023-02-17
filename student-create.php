@@ -23,6 +23,11 @@
                             <a href="index.php" class="btn btn-danger float-end">Back</a>
                         </h4>
                     </div>
+                    <div class="card-body">
+                        <form action="" method="POST">
+                            <label for=""></label>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
