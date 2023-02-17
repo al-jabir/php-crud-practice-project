@@ -1,6 +1,9 @@
 <?php
-$con = mysqli_connect("localhost","root","ajdevs");
+
+$con = mysqli_connect("localhost","root","","ajdevs");
+
 if(!$con){
-    die('Connection is failed'. mysqli_connect());
+    die('Connection Failed'. mysqli_connect_error());
 }
+
 ?>
